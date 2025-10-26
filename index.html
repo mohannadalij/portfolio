@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohannad A.J. - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Mohannad A.J.</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                <li><a href="#work" class="nav-link" data-en="Work" data-ar="الأعمال">Work</a></li>
+                <li><a href="#hire" class="nav-link" data-en="Hire me!" data-ar="لنعمل معًا!">Hire me!</a></li>
+                <li><button class="lang-switch" onclick="toggleLanguage()">العربية</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Page -->
+        <section id="home" class="page">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1 data-en="Mohannad A.J." data-ar="مهند ع.ج.">Mohannad A.J.</h1>
+                    <p class="tagline" data-en="Graphic Designer & Visual Storyteller" data-ar="مصمم جرافيك وراوي بصري">Graphic Designer & Visual Storyteller</p>
+                    <a href="#work" class="cta-button" data-en="View My Work" data-ar="شاهد أعمالي">View My Work</a>
+                </div>
+            </div>
+            <div class="about">
+                <div class="container">
+                    <h2 data-en="About Me" data-ar="عني">About Me</h2>
+                    <p data-en="I'm a passionate designer specializing in creating memorable brand identities, engaging social media content, and stunning visual designs. With a keen eye for detail and a love for creativity, I transform ideas into compelling visual stories that resonate with audiences." data-ar="أنا مصمم شغوف متخصص في إنشاء هويات تجارية لا تُنسى، ومحتوى جذاب لوسائل التواصل الاجتماعي، وتصاميم بصرية مذهلة. بعين دقيقة للتفاصيل وحب للإبداع، أحول الأفكار إلى قصص بصرية مقنعة تلقى صدى لدى الجماهير.">I'm a passionate designer specializing in creating memorable brand identities, engaging social media content, and stunning visual designs. With a keen eye for detail and a love for creativity, I transform ideas into compelling visual stories that resonate with audiences.</p>
+                </div>
+            </div>
+            
+            <div class="services-section">
+                <div class="container">
+                    <h2 data-en="What I Do" data-ar="ماذا أقدم">What I Do</h2>
+                    <div class="services-grid">
+                        <div class="service-card-home">
+                            <div class="service-icon">
+                                <i class="fas fa-pen-nib"></i>
+                            </div>
+                            <h3 data-en="Logo Design" data-ar="تصميم الشعارات">Logo Design</h3>
+                            <p data-en="Crafting unique and memorable logos that capture your brand's essence" data-ar="صياغة شعارات فريدة لا تُنسى تجسد جوهر علامتك التجارية">Crafting unique and memorable logos that capture your brand's essence</p>
+                        </div>
+                        <div class="service-card-home">
+                            <div class="service-icon">
+                                <i class="fas fa-hashtag"></i>
+                            </div>
+                            <h3 data-en="Social Media Design" data-ar="تصميم السوشيال ميديا">Social Media Design</h3>
+                            <p data-en="Engaging visual content that stops the scroll and boosts engagement" data-ar="محتوى بصري جذاب يوقف التمرير ويعزز التفاعل">Engaging visual content that stops the scroll and boosts engagement</p>
+                        </div>
+                        <div class="service-card-home">
+                            <div class="service-icon">
+                                <i class="fas fa-box-open"></i>
+                            </div>
+                            <h3 data-en="Package Design" data-ar="تصميم التغليف">Package Design</h3>
+                            <p data-en="Eye-catching packaging that makes your product stand out on shelves" data-ar="تغليف لافت للنظر يجعل منتجك يبرز على الرفوف">Eye-catching packaging that makes your product stand out on shelves</p>
+                        </div>
+                        <div class="service-card-home">
+                            <div class="service-icon">
+                                <i class="fas fa-print"></i>
+                            </div>
+                            <h3 data-en="Print Design" data-ar="تصميم المطبوعات">Print Design</h3>
+                            <p data-en="Professional print materials from business cards to brochures" data-ar="مواد مطبوعة احترافية من البطاقات إلى الكتيبات">Professional print materials from business cards to brochures</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Page -->
+        <section id="work" class="page hidden">
+            <div class="container">
+                <div class="work-header">
+                    <h1 data-en="Work" data-ar="الأعمال">Work</h1>
+                    <div class="filters">
+                        <button class="filter-btn active" data-filter="all" data-en="All" data-ar="الكل">All</button>
+                        <button class="filter-btn" data-filter="logo" data-en="Logo" data-ar="شعار">Logo</button>
+                        <button class="filter-btn" data-filter="social media" data-en="Social Media" data-ar="سوشيال ميديا">Social Media</button>
+                        <button class="filter-btn" data-filter="brand" data-en="Brand" data-ar="علامة تجارية">Brand</button>
+                        <button class="filter-btn" data-filter="illustration" data-en="Illustration" data-ar="رسوم توضيحية">Illustration</button>
+                    </div>
+                </div>
+                <div class="projects-grid" id="projectsGrid"></div>
+            </div>
+        </section>
+
+        <!-- Hire Me Page -->
+        <section id="hire" class="page hidden">
+            <div class="container">
+                <div class="hire-hero">
+                    <h1 data-en="Let's Work Together" data-ar="لنعمل معاً!">Let's Work Together</h1>
+                    <p data-en="I'm available for freelance projects and collaborations. Whether you need a complete brand identity, social media designs, or any creative visual work, I'm here to bring your vision to life." data-ar="أنا متاح لمشاريع العمل الحر والتعاون. سواء كنت بحاجة إلى هوية تجارية كاملة أو تصميمات لوسائل التواصل الاجتماعي أو أي عمل بصري إبداعي، أنا هنا لإحياء رؤيتك.">I'm available for freelance projects and collaborations. Whether you need a complete brand identity, social media designs, or any creative visual work, I'm here to bring your vision to life.</p>
+                </div>
+
+                <div class="services">
+                    <div class="service-card">
+                        <h3 data-en="Brand Identity" data-ar="الهوية التجارية">Brand Identity</h3>
+                        <p data-en="Complete brand systems including logos, color palettes, and guidelines" data-ar="أنظمة علامة تجارية كاملة تشمل الشعارات والألوان والإرشادات">Complete brand systems including logos, color palettes, and guidelines</p>
+                    </div>
+                    <div class="service-card">
+                        <h3 data-en="Social Media" data-ar="السوشيال ميديا">Social Media</h3>
+                        <p data-en="Eye-catching posts and stories that engage your audience" data-ar="منشورات وقصص جذابة تجذب جمهورك">Eye-catching posts and stories that engage your audience</p>
+                    </div>
+                    <div class="service-card">
+                        <h3 data-en="Visual Design" data-ar="التصميم البصري">Visual Design</h3>
+                        <p data-en="Custom illustrations, graphics, and creative visual solutions" data-ar="رسوم توضيحية مخصصة ورسومات وحلول بصرية إبداعية">Custom illustrations, graphics, and creative visual solutions</p>
+                    </div>
+                </div>
+
+                <div class="contact-buttons">
+                    <a href="https://wa.me/1234567890" class="contact-btn" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                        <span data-en="WhatsApp" data-ar="واتساب">WhatsApp</span>
+                    </a>
+                    <a href="https://instagram.com/mohannadaily" class="contact-btn" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://behance.net/mohannadaily" class="contact-btn" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7"/><path d="M21 7 12 2 3 7"/><path d="M12 22V7"/></svg>
+                        <span>Behance</span>
+                    </a>
+                    <a href="https://linkedin.com/in/mohannadaily" class="contact-btn" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <button class="close-modal" onclick="closeModal()">×</button>
+        <div class="modal-content" id="modalContent"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://instagram.com/mohannadaily" target="_blank" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                </a>
+                <a href="https://behance.net/mohannadaily" target="_blank" aria-label="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7"/><path d="M21 7 12 2 3 7"/><path d="M12 22V7"/></svg>
+                </a>
+                <a href="https://linkedin.com/in/mohannadaily" target="_blank" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="https://dribbble.com/mohannadaily" target="_blank" aria-label="Dribbble">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M19.13 5.09C15.22 9.14 10 10.44 2.25 10.94"/><path d="M21.75 12.84c-6.62-1.41-12.14 1-16.38 6.32"/><path d="M8.56 2.75c4.37 6 6 9.42 7 17.72"/></svg>
+                </a>
+            </div>
+            <p data-en="© 2025 Mohannad A.J. All rights reserved." data-ar="© 2025 مهند ع.ج. جميع الحقوق محفوظة.">© 2025 Mohannad A.J. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
