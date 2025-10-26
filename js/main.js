@@ -97,6 +97,13 @@ let currentFilter = 'all';
 // ============================================
 // NAVIGATION FUNCTIONS
 // ============================================
+window.toggleMenu = function() {
+    const navLinks = document.querySelector('.nav-links');
+    const burgerMenu = document.querySelector('.burger-menu');
+    navLinks.classList.toggle('active');
+    burgerMenu.classList.toggle('active');
+}
+
 function showPage(pageId) {
     document.querySelectorAll('.page').forEach(p => p.classList.add('hidden'));
     document.getElementById(pageId).classList.remove('hidden');
@@ -105,6 +112,14 @@ function showPage(pageId) {
         link.classList.remove('active');
     });
     document.querySelector(`[href="#${pageId}"]`).classList.add('active');
+
+    // Close mobile menu when navigating
+    const navLinks = document.querySelector('.nav-links');
+    const burgerMenu = document.querySelector('.burger-menu');
+    if (navLinks.classList.contains('active')) {
+        navLinks.classList.remove('active');
+        burgerMenu.classList.remove('active');
+    }
 }
 
 // Navigation links event listeners
