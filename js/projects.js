@@ -26,15 +26,17 @@
 const projects = [
   {
     id: 'project-1',
-    title: 'Aura Cosmetics',
-    tag: 'Branding & Packaging',
-    category: 'Packaging',
+    title: 'Sahar Crochet',
+    tag: 'Branding',
+    category: 'Logo',
     coverImage: 'https://picsum.photos/seed/aura-cover/800/600',
-    description: 'A complete branding and packaging design for Aura, a new line of organic cosmetics. The design focuses on a minimalist aesthetic with a touch of luxury, using earthy tones and elegant typography to reflect the natural ingredients and premium quality of the products.',
+    description: 'A complete branding design for Sahar Crochet, a handmade crochet brand. The identity reflects elegance and sophistication through a minimalist layout, a royal-inspired logo, and a refined color palette of golden yellow and cocoa brown, capturing the premium essence of handmade craftsmanship.',
     images: [
-      'https://picsum.photos/seed/aura-1/1200/800',
-      'https://picsum.photos/seed/aura-2/1200/800',
-      'https://picsum.photos/seed/aura-3/1200/800',
+      'imgs/Crochet/Ornament 2.png',
+      'imgs/Crochet/Light BG.png',
+      'imgs/Crochet/Dark BG.png',
+      'imgs/Crochet/Horizontals.png',
+      'imgs/Crochet/Four Palette.png',
     ],
   },
   {
