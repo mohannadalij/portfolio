@@ -29,7 +29,7 @@ const projects = [
     title: 'Sahar Crochet',
     tag: 'Branding',
     category: 'Logo',
-    coverImage: 'https://picsum.photos/seed/aura-cover/800/600',
+    coverImage: 'imgs/Crochet/Sahar Crochet Cover 1.jpg',
     description: 'A complete branding design for Sahar Crochet, a handmade crochet brand. The identity reflects elegance and sophistication through a minimalist layout, a royal-inspired logo, and a refined color palette of golden yellow and cocoa brown, capturing the premium essence of handmade craftsmanship.',
     images: [
       'imgs/Crochet/Ornament 2.png',
