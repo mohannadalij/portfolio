@@ -36,7 +36,7 @@ const projects = [
       'imgs/Crochet/Light BG.png',
       'imgs/Crochet/Dark BG.png',
       'imgs/Crochet/Horizontals.png',
-      'imgs/Crochet/Four Palette.png',
+      'imgs/Crochet/Four Palette v2.png',
     ],
   },
   {
