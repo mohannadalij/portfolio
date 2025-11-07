@@ -32,11 +32,12 @@ const projects = [
     coverImage: 'imgs/Crochet/Sahar Crochet Cover 1.jpg',
     description: 'A complete branding design for Sahar Crochet, a handmade crochet brand. The identity reflects elegance and sophistication through a minimalist layout, a royal-inspired logo, and a refined color palette of golden yellow and cocoa brown, capturing the premium essence of handmade craftsmanship.',
     images: [
-      'imgs/Crochet/Ornament 2.png',
-      'imgs/Crochet/Light BG.png',
-      'imgs/Crochet/Dark BG.png',
-      'imgs/Crochet/Horizontals.png',
-      'imgs/Crochet/Four Palette v2.png',
+      'imgs/Crochet/1 Light BG.jpg',
+      'imgs/Crochet/2 Dark BG.jpg',
+      'imgs/Crochet/3 Crochet.jpg',
+      'imgs/Crochet/4 Palette.jpg',
+      'imgs/Crochet/5 Horizontals.jpg',
+      'imgs/Crochet/6 Four Palette.jpg',
     ],
   },
   {
