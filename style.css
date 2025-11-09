@@ -549,13 +549,11 @@ a {
 /* --- Animations --- */
 .animate-on-scroll {
   opacity: 0;
-  transform: translateY(50px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   transition-delay: var(--delay, 0s);
 }
 .animate-on-scroll.is-visible {
   opacity: 1;
-  transform: translateY(0);
 }
 
 @keyframes slide-down {
