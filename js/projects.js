@@ -29,7 +29,7 @@ const projects = [
     title: 'Sahar Crochet',
     tag: 'Branding',
     category: 'Logo',
-    coverImage: 'imgs/Sahar Crochet/#cover.jpg',
+    coverImage: 'imgs/covers/saharcrochet.jpg',
     description: 'A complete branding design for Sahar Crochet, a handmade crochet brand. The identity reflects elegance and sophistication through a minimalist layout, a royal-inspired logo, and a refined color palette of golden yellow and cocoa brown, capturing the premium essence of handmade craftsmanship.',
     images: [
       'imgs/Sahar Crochet/1 Dark BG.jpg',
@@ -43,7 +43,6 @@ const projects = [
       'imgs/Sahar Crochet/9 store 2.jpg',
       'imgs/Sahar Crochet/10 hand-holding-bag.jpg',
       'imgs/Sahar Crochet/11 vertical-store-wood.jpg',
-      'imgs/Sahar Crochet/12 website-phone.jpg',
       'imgs/Sahar Crochet/12 website-phone.jpg',
       'imgs/Sahar Crochet/13 Crochet.jpg',
     ],
