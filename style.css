@@ -38,6 +38,10 @@ html {
 }
 
 body {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),
+    url('https://res.cloudinary.com/dwo3dfocn/image/upload/f_auto,q_auto/v1762827424/website_background_quality_ubhmtj.jpg');
+  background-size: cover;
   background-color: var(--color-base);
   color: var(--color-primary);
   font-family: var(--font-sans);
@@ -128,7 +132,7 @@ a {
   -webkit-backdrop-filter: blur(9.5px);
   border: 1px solid var(--color-border);
   border-radius: 0.75rem;
-  padding: 0 1rem;
+  padding: 0 1rem 0 1.65rem;
   animation: slide-down 0.5s ease-out forwards;
 }
 
@@ -280,7 +284,8 @@ a {
   transform: translateY(100%);
 }
 .hero-subtitle {
-  font-size: clamp(1.25rem, 5vw, 1.5rem);
+  font-size: clamp(1.65rem, 5vw, 1.5rem);
+  font-weight: 400;
   color: var(--color-secondary);
   margin-bottom: 2rem;
 }
@@ -303,7 +308,7 @@ a {
 }
 .about-text {
   font-size: 1.25rem;
-  color: var(--color-secondary);
+  color: #ddc6b5;
   line-height: 1.8;
   max-width: 750px;
   margin: 0 auto;
@@ -324,7 +329,7 @@ a {
   position: relative;
   padding: 2rem;
   overflow: hidden;
-  background-color: var(--color-surface);
+  background-color: #97979726;
   border: 1px solid var(--color-border);
   border-radius: 0.75rem;
   transition: all 0.3s ease;
@@ -511,6 +516,7 @@ a {
   align-items: center;
   gap: 1.5rem;
   margin: 3rem 0;
+  justify-content: center;
 }
 .social-link {
   display: flex;
