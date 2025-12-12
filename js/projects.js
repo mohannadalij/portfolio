@@ -25,7 +25,7 @@
 
 const projects = [
   {
-    id: 'project-1',
+    id: 'sahar-crochet',
     title: 'Sahar Crochet',
     tag: 'Branding',
     category: 'Logo',
@@ -48,18 +48,6 @@ const projects = [
     ],
   },
   {
-    id: 'project-2',
-    title: 'Hello Tech',
-    tag: 'Logo Design',
-    category: 'Logo',
-    coverImage: 'imgs/HelloDot.jpg',
-    description: 'Logo design for Hello Tech, a startup focused on renewable energy solutions. The logo combines a stylized sun and a gear to represent innovation, energy, and progress. The color palette is vibrant and modern, conveying a sense of optimism and technological advancement.',
-    images: [
-      'imgs/HelloDot.jpg',
-      'imgs/HelloDot1.png',
-    ],
-  },
-  {
     id: 'project-3',
     title: 'The Daily Grind',
     tag: 'Social Media Campaign',
@@ -74,16 +62,26 @@ const projects = [
     video: 'https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4',
   },
   {
-    id: 'project-4',
-    title: 'Artisan Fest',
-    tag: 'Print & Event Materials',
-    category: 'Printing',
-    coverImage: 'https://picsum.photos/seed/artisan-cover/800/600',
+    id: 'live-with-quran',
+    title: 'Live with Quran Academy',
+    tag: 'Logo & Branding',
+    category: 'Logo',
+    coverImage: 'https://res.cloudinary.com/dwo3dfocn/image/upload/v1765502294/portfolio-cover_mxq3nz.jpg',
     description: 'Design of all printing materials for the annual Artisan Fest, including posters, flyers, tickets, and event banners. The design concept was inspired by handcrafted textures and rustic elements, creating a warm and inviting visual identity for the festival.',
     images: [
-      'https://picsum.photos/seed/artisan-1/1200/800',
-      'https://picsum.photos/seed/artisan-2/800/1200',
-      'https://picsum.photos/seed/artisan-3/1200/800',
+      'https://res.cloudinary.com/dwo3dfocn/image/upload/v1765500439/1_Dark_BG-100_d8zor1.jpg',
+      'https://res.cloudinary.com/dwo3dfocn/image/upload/v1765502909/Artboard_1_o7pdwv.png',
+      'https://res.cloudinary.com/dwo3dfocn/image/upload/v1765500833/2_ACTUALLY_-_pencil_lowQ_iotq26.jpg',
+      'https://res.cloudinary.com/dwo3dfocn/image/upload/v1765500461/2_Light_BG-100_cbpfqd.jpg',
+      'https://res.cloudinary.com/dwo3dfocn/image/upload/v1765500528/3_Horizontals-100_htojgd.jpg',
+      'https://res.cloudinary.com/dwo3dfocn/image/upload/v1765500530/4_Four_Palette-100_sjypvl.jpg',
+      'https://res.cloudinary.com/dwo3dfocn/image/upload/v1765502909/Artboard_1_copy_yx75vn.png',
+      'https://res.cloudinary.com/dwo3dfocn/image/upload/v1765500530/5_Color_Palette-100_bxiugm.jpg',
+      'https://res.cloudinary.com/dwo3dfocn/image/upload/v1765502908/Artboard_1_copy_2_jkzsdm.png',
+      'https://res.cloudinary.com/dwo3dfocn/image/upload/v1765500531/6_Fonts-100_v3dv33.jpg',
+      'https://res.cloudinary.com/dwo3dfocn/image/upload/v1765502908/Artboard_1_copy_3_gagm0h.png',
+      'https://res.cloudinary.com/dwo3dfocn/image/upload/v1765500621/T-shirt_mockup_wzvqjl.jpg',
+      'https://res.cloudinary.com/dwo3dfocn/image/upload/v1765500833/8_mock_-_lowQ_feqnqp.jpg',
     ],
   },
   {
