@@ -92,8 +92,9 @@ const projects = [
     coverImage: 'https://picsum.photos/seed/zenith-cover/800/600',
     description: 'A sophisticated logo and branding guide for Zenith, a luxury watchmaker. The mark is a modern monogram that reflects precision, elegance, and timelessness. The branding extends to stationery, web assets, and retail displays.',
     images: [
-        'https://picsum.photos/seed/zenith-1/1200/800',
-        'https://picsum.photos/seed/zenith-2/1200/800',
+        'https://picsum.photos/1200/800?random=1',
+        'https://picsum.photos/1200/800?random=2',
+        'https://picsum.photos/1200/800?random=3',
     ],
   },
   {
@@ -104,14 +105,14 @@ const projects = [
     coverImage: 'https://picsum.photos/seed/gourmet-cover/800/600',
     description: 'Packaging design for a line of gourmet snacks. The design uses bold colors and playful illustrations to stand out on the shelves, while clear typography and iconography communicate key product information effectively.',
     images: [
-        'https://picsum.photos/seed/gourmet-1/1200/800',
-        'https://picsum.photos/seed/gourmet-2/1200/800',
-        'https://picsum.photos/seed/gourmet-3/1200/800',
+        'https://picsum.photos/1200/800?random=1',
+        'https://picsum.photos/1200/800?random=2',
+        'https://picsum.photos/1200/800?random=3',
     ],
   },
   {
     id: 'project-7',
-    title: 'Sahar Crochet',
+    title: 'Lyle Snack',
     tag: 'Handmade products',
     category: 'Logo',
     coverImage: 'https://picsum.photos/800/600',
