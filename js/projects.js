@@ -48,7 +48,7 @@ const projects = [
     ],
   },
   {
-    id: 'project-3',
+    id: 'faseela-academy-logo',
     title: 'Faseela Academy',
     tag: 'Logo & Branding',
     category: 'Logo',
@@ -65,7 +65,7 @@ const projects = [
     // video: 'https://test.com/test.mp4',
   },
   {
-    id: 'live-with-quran',
+    id: 'live-with-quran-logo',
     title: 'Live with Quran Academy',
     tag: 'Logo & Branding',
     category: 'Logo',
@@ -88,16 +88,15 @@ const projects = [
     ],
   },
   {
-    id: 'project-5',
-    title: 'Zenith Watches',
-    tag: 'Logo & Branding',
+    id: 'focus-marketing-logo',
+    title: 'Focus Marketing Comp.',
+    tag: 'Logo',
     category: 'Logo',
-    coverImage: 'https://picsum.photos/seed/zenith-cover/800/600',
-    description: 'A sophisticated logo and branding guide for Zenith, a luxury watchmaker. The mark is a modern monogram that reflects precision, elegance, and timelessness. The branding extends to stationery, web assets, and retail displays.',
+    coverImage: 'https://res.cloudinary.com/dwo3dfocn/image/upload/v1769903601/focus-cover_s02inr.png',
+    description: 'Focus is a digital marketing agency branding project centered on clarity, precision, and results. The identity was designed to reflect strategic focus and strong digital presence, ensuring consistency and adaptability across modern marketing platforms.',
     images: [
-        'https://picsum.photos/1200/800?random=1',
-        'https://picsum.photos/1200/800?random=2',
-        'https://picsum.photos/1200/800?random=3',
+        'https://res.cloudinary.com/dwo3dfocn/image/upload/v1769903405/Artboard_1-100_bzdgix.jpg',
+        'https://res.cloudinary.com/dwo3dfocn/image/upload/v1769903404/Artboard_2-100_xzbam1.jpg',
     ],
   },
   {
